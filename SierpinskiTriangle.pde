@@ -27,3 +27,10 @@ public void sierpinski(int x, int y, int len)
     sierpinski(x+len/4,y-len/2,len/2);
   }
 }
+void mouseClicked(){
+  if (mouseButton == LEFT){
+    len = len - 50;
+  } else {
+    len = len + 50;
+  }
+}
